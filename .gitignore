@@ -1,0 +1,10 @@
+.DS_Store
+*.DS_Store
+
+*.afdesign
+
+# ignore backups by kicad
+*-backups*
+
+# apple specific files
+*.numbers
