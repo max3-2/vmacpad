@@ -12,7 +12,7 @@
   )
 
   (lib_symbols
-    (symbol "Diode:SM4007" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Diode:SM4007" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -23,6 +23,12 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Device" "D" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Pins" "1=K 2=A" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_keywords" "diode" (at 0 0 0)
@@ -545,17 +551,23 @@
     (property "Value" "SM4007" (at 180.975 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 182.88 74.93 0)
+    (property "Footprint" "Diode_SMD:D_MELF" (at 182.88 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 178.435 74.93 0)
+    (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 178.435 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part #" "C64898" (at 178.435 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ff024e89-61fa-46fc-b5f5-aa465914d726))
-    (pin "2" (uuid 364299c7-d517-483f-ae8d-3b02563453ae))
+    (property "Sim.Device" "D" (at 178.435 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 178.435 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 95289f12-f408-4f01-9094-8441c9a94dba))
+    (pin "2" (uuid 99317797-872c-40d2-aeb3-095b9ee130d0))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -588,8 +600,8 @@
     (property "LCSC Part #" "C5156480" (at 159.385 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7c3f3f9d-5d1b-4e28-9851-208b38e39bbf))
-    (pin "2" (uuid b2f84f58-b699-42b5-8687-1077ab1eb7d1))
+    (pin "1" (uuid 70865301-fd7b-4493-9fc5-6c81e3c7676e))
+    (pin "2" (uuid 8f729461-e27a-4e41-8110-bce0e0abd5c8))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -622,8 +634,8 @@
     (property "LCSC Part #" "C5156480" (at 159.385 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 84bbc696-192e-417e-9855-a78ad752c15b))
-    (pin "2" (uuid 379d2916-6c20-47ce-bf0f-6dbdbdb468a1))
+    (pin "1" (uuid 08747b01-ae8c-42ba-b96c-7b94ea4abde0))
+    (pin "2" (uuid 3020eae2-8e8d-4b1b-96b0-0b38aa9c8f04))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -656,8 +668,8 @@
     (property "LCSC Part #" "C5156480" (at 136.525 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9147a96e-286e-49f8-a3fd-fe5b9dc4923f))
-    (pin "2" (uuid 3c3df61c-a4d2-432b-804b-6e17c3e8e5ed))
+    (pin "1" (uuid c5e23819-b0df-4644-b0b1-89af1fa0184b))
+    (pin "2" (uuid e6052eee-db93-4eef-85f4-8c8f66e44d43))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -681,17 +693,23 @@
     (property "Value" "SM4007" (at 180.975 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 182.88 54.61 0)
+    (property "Footprint" "Diode_SMD:D_MELF" (at 182.88 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 178.435 54.61 0)
+    (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 178.435 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part #" "C64898" (at 178.435 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 46f6b1d7-afe4-46ad-a980-1d509c137314))
-    (pin "2" (uuid 80b97aae-4464-4f03-9fee-42e26e8dbe69))
+    (property "Sim.Device" "D" (at 178.435 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 178.435 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fb8fedec-6586-4377-b5c7-234560280680))
+    (pin "2" (uuid a1ec0fb0-b81f-4748-ae9d-6de78fbb5426))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -724,8 +742,8 @@
     (property "LCSC Part #" "C5156480" (at 182.245 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6ec8c7de-6940-4660-b8c8-bd31aedc880f))
-    (pin "2" (uuid fcece42d-fe54-4ef0-9a0a-2c92ba6a1c74))
+    (pin "1" (uuid 4212e847-16c3-48e0-af4c-a8bb866dec35))
+    (pin "2" (uuid 65cc65f5-abba-42ce-8687-741af2f3bf81))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -758,8 +776,8 @@
     (property "LCSC Part #" "C5156480" (at 113.665 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 89016d5c-5c09-4512-85e0-ea02fae11130))
-    (pin "2" (uuid bd8c394d-1cfb-4f19-9805-0fb4286035bb))
+    (pin "1" (uuid 0c32bf3a-f8fc-411a-b759-5759c3e6472e))
+    (pin "2" (uuid 5f0431be-03d4-40d2-a8a3-270234a9b67a))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -792,8 +810,8 @@
     (property "LCSC Part #" "C5156480" (at 182.245 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aef7963e-d910-483b-abd5-075970dabbe7))
-    (pin "2" (uuid b1e3bb1b-8dad-4f3e-87ba-387a9e9b075b))
+    (pin "1" (uuid 3486e75e-38fa-4840-9859-ebb71290a4eb))
+    (pin "2" (uuid 023e0657-0bf5-48e1-a593-d9e75c9c3470))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -817,17 +835,23 @@
     (property "Value" "SM4007" (at 89.535 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 91.44 54.61 0)
+    (property "Footprint" "Diode_SMD:D_MELF" (at 91.44 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 86.995 54.61 0)
+    (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 86.995 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part #" "C64898" (at 86.995 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7b0b8be1-0ef2-401a-b8f3-41452a3a3869))
-    (pin "2" (uuid 683fd686-b7c5-4ca7-8635-17ae9014ba6f))
+    (property "Sim.Device" "D" (at 86.995 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 86.995 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6349ce9b-120d-470d-9a5d-fa8b300a6b3b))
+    (pin "2" (uuid 6dd5607c-0c46-45f2-b8ab-0927310754bc))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -860,8 +884,8 @@
     (property "LCSC Part #" "C5156480" (at 136.525 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ed8ed96e-b956-4d9f-ac5e-833e005f4028))
-    (pin "2" (uuid 75902da2-7ea3-437c-8bab-3ef0f5e7ccfa))
+    (pin "1" (uuid 698f02f8-bf31-45fd-ab70-6705b46fc81e))
+    (pin "2" (uuid 196897f6-fbc4-44f0-a9b8-6ac61c6bdc10))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -894,8 +918,8 @@
     (property "LCSC Part #" "C5156480" (at 113.665 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 09266aac-d7ed-4e8c-ae32-edd65321aeca))
-    (pin "2" (uuid 7728b5df-36ce-4d32-a0ef-ceebce01046e))
+    (pin "1" (uuid 06244641-113f-4ed4-bdd2-c8260a8d4839))
+    (pin "2" (uuid dea37882-767a-4224-90a6-e8b721d7d767))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -928,8 +952,8 @@
     (property "LCSC Part #" "C5156480" (at 90.805 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5ba6b7bb-6817-44a3-af78-a0b0e2f19527))
-    (pin "2" (uuid 66ad6932-3f57-4715-9916-e1412b80188b))
+    (pin "1" (uuid e32d4357-db6e-43dd-b3d7-90ee0db294b1))
+    (pin "2" (uuid 24f3c3a5-9d70-471e-b547-81cc7c10a7f3))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -953,17 +977,23 @@
     (property "Value" "SM4007" (at 135.255 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 137.16 54.61 0)
+    (property "Footprint" "Diode_SMD:D_MELF" (at 137.16 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 132.715 54.61 0)
+    (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 132.715 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part #" "C64898" (at 132.715 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 35b7909b-d742-4ebb-a29b-487e3e6c9779))
-    (pin "2" (uuid 62a9b8e8-6894-4f11-85ec-86d772a0ce67))
+    (property "Sim.Device" "D" (at 132.715 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 132.715 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2ef2b6c5-bdaf-4d05-863e-52146bf0beea))
+    (pin "2" (uuid af7b74e7-4bc3-4e25-b0ae-36022596c2b6))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -996,8 +1026,8 @@
     (property "LCSC Part #" "C5156480" (at 182.245 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 911a9ed5-6534-42e2-982b-99b61610c351))
-    (pin "2" (uuid 8b7ba7a2-cb20-42c4-a236-940388158834))
+    (pin "1" (uuid 1339c6e3-3d9b-4454-8e3e-d3d6de87eb31))
+    (pin "2" (uuid 990b879f-82c8-46f3-a4b9-2d55b7e7328a))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -1030,8 +1060,8 @@
     (property "LCSC Part #" "C5156480" (at 159.385 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7c2da814-50b2-4add-ba6f-2d664918225a))
-    (pin "2" (uuid 38c83743-250a-4961-a0c4-482014bc79bb))
+    (pin "1" (uuid c41e3f65-842b-4340-8df5-8aa943295307))
+    (pin "2" (uuid 890da176-1c57-4a35-b43b-a3b3054e70fb))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -1064,8 +1094,8 @@
     (property "LCSC Part #" "C5156480" (at 136.525 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e6c776d8-b9e5-4a99-9697-66ae1d41d202))
-    (pin "2" (uuid 3de538e2-d386-41b9-833d-3ec8c830bbd9))
+    (pin "1" (uuid 38dd1dc8-9c5a-404c-87fe-00f3c1a547e8))
+    (pin "2" (uuid 7e91d15d-48e6-47b7-8a20-9e40ec8a5cf0))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -1089,17 +1119,23 @@
     (property "Value" "SM4007" (at 112.395 55.8799 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 114.3 54.61 0)
+    (property "Footprint" "Diode_SMD:D_MELF" (at 114.3 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 109.855 54.61 0)
+    (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 109.855 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part #" "C64898" (at 109.855 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8c1f61ec-d370-476e-9432-c63114ce6ea6))
-    (pin "2" (uuid 87db862d-1226-42a5-994e-c4c18cd432b5))
+    (property "Sim.Device" "D" (at 109.855 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 109.855 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 56e525ea-5ac6-45a5-ad3e-a08eb90ad428))
+    (pin "2" (uuid ef40c974-bce1-40e9-ac68-a0a1a5a78d01))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -1123,17 +1159,23 @@
     (property "Value" "SM4007" (at 112.395 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 114.3 74.93 0)
+    (property "Footprint" "Diode_SMD:D_MELF" (at 114.3 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 109.855 74.93 0)
+    (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 109.855 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part #" "C64898" (at 109.855 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8aee2896-fcee-4612-87a1-dd1c2946fca4))
-    (pin "2" (uuid dc7d8876-dab9-492c-ab3d-8d1d418e766f))
+    (property "Sim.Device" "D" (at 109.855 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 109.855 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2bcd8317-9f14-44da-b1f7-cfcefd80e55a))
+    (pin "2" (uuid 71c98e27-0ba4-46d8-b74d-a27d7338e829))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -1157,17 +1199,23 @@
     (property "Value" "SM4007" (at 135.255 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 137.16 95.25 0)
+    (property "Footprint" "Diode_SMD:D_MELF" (at 137.16 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 132.715 95.25 0)
+    (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 132.715 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part #" "C64898" (at 132.715 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7fa73b15-7cdb-45c3-b89a-4caa46dded20))
-    (pin "2" (uuid 7cb5625c-0ec1-47e2-9c40-3402ef14712e))
+    (property "Sim.Device" "D" (at 132.715 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 132.715 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c9904397-14c4-4765-9668-a9bc5f1ec1f2))
+    (pin "2" (uuid 61c9bd65-7695-4f67-b7c5-a2ba2486fad4))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -1200,8 +1248,8 @@
     (property "LCSC Part #" "C5156480" (at 113.665 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7e3b37d5-e6e8-40aa-99f8-cc94fff70a61))
-    (pin "2" (uuid d6cc2abf-29d7-443d-9aee-2d14eca18885))
+    (pin "1" (uuid c1350508-3c67-42ed-ad73-9e956c85afbc))
+    (pin "2" (uuid d0030ca6-b22b-4259-a65a-4101f47cda85))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -1225,17 +1273,23 @@
     (property "Value" "SM4007" (at 89.535 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 91.44 74.93 0)
+    (property "Footprint" "Diode_SMD:D_MELF" (at 91.44 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 86.995 74.93 0)
+    (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 86.995 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part #" "C64898" (at 86.995 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8fcfce20-1383-4ef4-8a74-f5a1439455a9))
-    (pin "2" (uuid 970324a1-96cf-4554-9339-04ab37d90adc))
+    (property "Sim.Device" "D" (at 86.995 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 86.995 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a27e77ba-fbfd-4505-a8a5-0f47d017eb52))
+    (pin "2" (uuid c51fcba3-7d1c-4127-a75b-e1110416dc15))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -1268,8 +1322,8 @@
     (property "LCSC Part #" "C5156480" (at 90.805 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fab12f4d-bad1-4402-a3c6-c86bf69ab0af))
-    (pin "2" (uuid 5a375631-12a9-4cec-87cf-2fdb1c88c2f3))
+    (pin "1" (uuid 9a64a73b-9af9-433a-8b49-e673b971cff8))
+    (pin "2" (uuid a11bb0cb-de04-424c-9c63-66a1944551f3))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -1293,17 +1347,23 @@
     (property "Value" "SM4007" (at 135.255 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 137.16 74.93 0)
+    (property "Footprint" "Diode_SMD:D_MELF" (at 137.16 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 132.715 74.93 0)
+    (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 132.715 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part #" "C64898" (at 132.715 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 76bd6025-90b4-4a2e-8474-f4bf8dcb0d50))
-    (pin "2" (uuid 0ce7411b-c4ad-4822-a4b4-1a2d93b688a7))
+    (property "Sim.Device" "D" (at 132.715 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 132.715 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 27af5dbc-03ca-4f5e-b809-a6b0d8a2c87b))
+    (pin "2" (uuid 3f89b491-987d-4006-88bd-c2395bd61b45))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -1327,17 +1387,23 @@
     (property "Value" "SM4007" (at 158.115 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 160.02 54.61 0)
+    (property "Footprint" "Diode_SMD:D_MELF" (at 160.02 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 155.575 54.61 0)
+    (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 155.575 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part #" "C64898" (at 155.575 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cecbd636-8a2a-46b1-b947-1aad9f8233ef))
-    (pin "2" (uuid f1fd6c58-3e73-468b-ba6c-d8fccb98e24a))
+    (property "Sim.Device" "D" (at 155.575 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 155.575 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fab51b1d-3981-4dcf-93f8-3aa1bf0988ab))
+    (pin "2" (uuid 83967f5e-339b-428e-98c9-55bf18a4cbba))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -1361,17 +1427,23 @@
     (property "Value" "SM4007" (at 180.975 115.57 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 182.88 115.57 0)
+    (property "Footprint" "Diode_SMD:D_MELF" (at 182.88 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 178.435 115.57 0)
+    (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 178.435 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part #" "C64898" (at 178.435 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 38a8a986-cd25-4da7-821a-6263240e75d0))
-    (pin "2" (uuid 073ed296-299b-457d-99a2-ca701395726d))
+    (property "Sim.Device" "D" (at 178.435 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 178.435 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e9760233-69b1-4faa-abc4-15c82ce8b76e))
+    (pin "2" (uuid 9d7e222c-6eab-4ffa-956f-ff9038f83540))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -1404,8 +1476,8 @@
     (property "LCSC Part #" "C5156480" (at 90.805 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 726a3352-702a-4f9a-a55e-b9383929ce19))
-    (pin "2" (uuid b6569055-077d-4a43-88ec-9290daeb5ef1))
+    (pin "1" (uuid 70f7d63a-2435-4475-8aaf-e8ffa0ca57db))
+    (pin "2" (uuid 47140549-4fbf-45ec-b846-9b2ee195e250))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -1429,17 +1501,23 @@
     (property "Value" "SM4007" (at 158.115 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 160.02 74.93 0)
+    (property "Footprint" "Diode_SMD:D_MELF" (at 160.02 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 155.575 74.93 0)
+    (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 155.575 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part #" "C64898" (at 155.575 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid edfea88e-c1a7-487a-a2ce-74b1ad2c4b35))
-    (pin "2" (uuid b98f5b9d-cd72-4995-83bf-4123c6efb3dd))
+    (property "Sim.Device" "D" (at 155.575 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 155.575 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c0746c4e-a79d-473f-ae9f-a33012acde07))
+    (pin "2" (uuid ab5d441d-2f58-4514-af7f-1edcf3b2e40c))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -1463,17 +1541,23 @@
     (property "Value" "SM4007" (at 89.535 115.57 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 91.44 115.57 0)
+    (property "Footprint" "Diode_SMD:D_MELF" (at 91.44 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 86.995 115.57 0)
+    (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 86.995 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part #" "C64898" (at 86.995 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 187356e3-84ee-4be2-b23c-c9f716968a4b))
-    (pin "2" (uuid f1f36eed-931d-46b9-9d51-87c17ac27c88))
+    (property "Sim.Device" "D" (at 86.995 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 86.995 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a35ddea4-8254-4229-97d8-0f067d4038b2))
+    (pin "2" (uuid 52697703-d3be-440a-b5c2-fbb9d3561605))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -1497,17 +1581,23 @@
     (property "Value" "SM4007" (at 112.395 115.57 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 114.3 115.57 0)
+    (property "Footprint" "Diode_SMD:D_MELF" (at 114.3 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 109.855 115.57 0)
+    (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 109.855 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part #" "C64898" (at 109.855 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eccb924f-413f-4ccc-a249-d96044c34c9b))
-    (pin "2" (uuid c883e5d6-b7e0-45e8-875f-3be0359c3d28))
+    (property "Sim.Device" "D" (at 109.855 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 109.855 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bedbd3b2-e037-44de-be7b-bbe5acaf8157))
+    (pin "2" (uuid 61b17f19-6e55-4608-8b9f-9ffde442e477))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -1531,17 +1621,23 @@
     (property "Value" "SM4007" (at 135.255 115.57 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 137.16 115.57 0)
+    (property "Footprint" "Diode_SMD:D_MELF" (at 137.16 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 132.715 115.57 0)
+    (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 132.715 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part #" "C64898" (at 132.715 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 81bcf126-d91d-40b9-a341-c5822492683b))
-    (pin "2" (uuid a33b744c-1391-4525-b897-30aab74c2634))
+    (property "Sim.Device" "D" (at 132.715 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 132.715 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cc8780f1-d71b-4a94-a378-49be87fe2557))
+    (pin "2" (uuid b123a514-2107-490f-b75f-01b2acb991a5))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
@@ -1565,17 +1661,23 @@
     (property "Value" "SM4007" (at 158.115 115.57 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 160.02 115.57 0)
+    (property "Footprint" "Diode_SMD:D_MELF" (at 160.02 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 155.575 115.57 0)
+    (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 155.575 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part #" "C64898" (at 155.575 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d8caae6e-371d-4137-af44-e0dbbe2ed0eb))
-    (pin "2" (uuid 1e36d0db-eb40-435d-9225-460b510869e1))
+    (property "Sim.Device" "D" (at 155.575 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 155.575 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid da8ae315-6a9e-4fa1-9a78-5e329e8732f9))
+    (pin "2" (uuid 91cfd98e-7b9f-45b3-88dd-67a03ab3fd62))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"

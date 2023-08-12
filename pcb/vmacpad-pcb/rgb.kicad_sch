@@ -318,7 +318,7 @@
     (property "Datasheet" "" (at 273.05 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d411ad63-f2ba-4a3f-8780-68b8218e4071))
+    (pin "1" (uuid 7cbd8eca-b195-4c61-9650-708344a4487f))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e"
@@ -351,7 +351,7 @@
     (property "Datasheet" "" (at 337.82 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ebba68f9-eb74-42f3-b636-bf631e3fa363))
+    (pin "1" (uuid 231279d6-7870-48e0-886b-6ad92fd6faa4))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e"
@@ -384,7 +384,7 @@
     (property "Datasheet" "" (at 273.05 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4f8bed27-ec87-49e7-b4e5-4c347ea6e9e0))
+    (pin "1" (uuid 37f495d7-04d8-4cff-bdc5-077024188682))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e"
@@ -417,7 +417,7 @@
     (property "Datasheet" "" (at 253.365 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5543bbfb-59f6-4edc-b629-42c98d89a9ab))
+    (pin "1" (uuid 77171094-5012-4d8d-a447-90fd00cb1806))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e"
@@ -453,10 +453,10 @@
     (property "LCSC Part No" "C2874885" (at 295.91 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c05d2b93-937e-4bb4-94e2-637e297d8ed6))
-    (pin "2" (uuid 7f219458-b7a0-4803-9871-7c05c52a8c00))
-    (pin "3" (uuid ff41049f-b48d-49ed-aeca-1b1d9360bf35))
-    (pin "4" (uuid 80b2729a-9e12-4db0-8286-8dda99e8563f))
+    (pin "1" (uuid 4bbc7760-24f3-4ae0-ba8f-34c3376336d1))
+    (pin "2" (uuid 4ee5e80f-124e-490d-a1f9-9880f35367d0))
+    (pin "3" (uuid 9a40cae9-4228-4758-abac-fd30ec489e76))
+    (pin "4" (uuid 23942080-93c9-479d-8c98-ef2dc790a8c5))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/291f8509-e73e-4769-8772-49404d694792"
@@ -489,10 +489,10 @@
     (property "LCSC Part No" "C2874885" (at 337.82 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5aa5e3ed-d8df-4278-83da-87b492417c36))
-    (pin "2" (uuid ccfc811c-ccda-4429-8877-0b381a7e8a53))
-    (pin "3" (uuid 7bdbb9bb-573d-4e19-a115-f3c79fa6ffed))
-    (pin "4" (uuid 9f2e5f58-36b1-4466-b644-5de0237219be))
+    (pin "1" (uuid f11af1ae-4512-459b-9e61-5a6436cc644e))
+    (pin "2" (uuid ab320387-d9ed-42eb-817f-fa9b63b65ba0))
+    (pin "3" (uuid 917e9a46-8c98-4bc8-bfb0-385d81f3784a))
+    (pin "4" (uuid bde22db5-fd9f-4715-92d7-bf5bc3d92d4d))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/291f8509-e73e-4769-8772-49404d694792"
@@ -522,7 +522,7 @@
     (property "Datasheet" "" (at 295.91 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 05a2dade-1824-4dd2-aae4-ca6aa4e69fdd))
+    (pin "1" (uuid cd3bd2ac-26bb-48f4-a587-7d28bde24bdd))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e"
@@ -558,10 +558,10 @@
     (property "LCSC Part No" "C2874885" (at 316.865 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 10ef710e-31a7-4329-b1ba-12635932fcb2))
-    (pin "2" (uuid 63dfc125-887f-4f80-9faf-6f9f10b1db78))
-    (pin "3" (uuid 6f83ac5b-72db-473d-a328-5ebca5af4eb0))
-    (pin "4" (uuid 8d4d4c28-69f7-420a-98f8-29d7f444a14f))
+    (pin "1" (uuid 01a47afe-53f2-484d-8781-afca57c32709))
+    (pin "2" (uuid 3a046725-5481-444d-97db-47d49050a3bd))
+    (pin "3" (uuid 90add129-1040-450c-b088-1e9bf7e81090))
+    (pin "4" (uuid ca588b78-03ec-49bc-94bb-062243ed39a7))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/291f8509-e73e-4769-8772-49404d694792"
@@ -591,7 +591,7 @@
     (property "Datasheet" "" (at 316.865 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 06ea3079-00fd-40c8-938c-daaf8d7f0032))
+    (pin "1" (uuid 3f7f72dd-2af5-412f-aa6a-66b924fc840c))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e"
@@ -627,10 +627,10 @@
     (property "LCSC Part No" "C2874885" (at 358.775 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 585a6d34-5e44-4e0e-a828-c14e68083e71))
-    (pin "2" (uuid 525af0b6-f34f-497b-99c9-af0babcb69c9))
-    (pin "3" (uuid a05a5320-51fb-46ac-a2df-40aaf79e4de0))
-    (pin "4" (uuid 21e65f6e-f9ac-45e8-b47a-8a86a3a28bfe))
+    (pin "1" (uuid 3eac2789-9009-489d-a9ee-cc593591a772))
+    (pin "2" (uuid 497dd16a-8abd-4dbe-8d75-a00c0ca1bc81))
+    (pin "3" (uuid c29db357-371d-46b6-84e7-eadf8bc7f526))
+    (pin "4" (uuid 9f827842-eec4-4baa-80d3-07deb54afb65))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/291f8509-e73e-4769-8772-49404d694792"
@@ -660,7 +660,7 @@
     (property "Datasheet" "" (at 295.91 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 10ba6b9b-2463-4f24-a032-26d1ed5a7112))
+    (pin "1" (uuid 075d6d82-67d1-4965-910c-e8d4759cf9c9))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e"
@@ -693,7 +693,7 @@
     (property "Datasheet" "" (at 337.82 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bf86572a-c377-437b-83fa-aa4357fa55cd))
+    (pin "1" (uuid 39db5959-69e2-4d09-b7fa-781858c31ccc))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e"
@@ -726,7 +726,7 @@
     (property "Datasheet" "" (at 358.775 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9e11825c-2107-47a9-85b0-1d6cf6e3c2ae))
+    (pin "1" (uuid 76c14c26-1cb9-4bfc-8ac5-aa41000699b5))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e"
@@ -759,7 +759,7 @@
     (property "Datasheet" "" (at 316.865 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6f0d4152-eaa2-4208-bdc6-89aa0e043c09))
+    (pin "1" (uuid b6736953-b7fa-4610-8fa8-772ee5caf07a))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e"
@@ -792,7 +792,7 @@
     (property "Datasheet" "" (at 358.775 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 49a6b197-1cb1-4f26-b8b5-fcbcaf89768a))
+    (pin "1" (uuid ad56d2c6-013d-42a1-8df0-361e88a0cc81))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e"
@@ -825,7 +825,7 @@
     (property "Datasheet" "" (at 253.365 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b298bf0b-9cce-40ed-a10f-80ac26744e14))
+    (pin "1" (uuid ab129c24-220b-4efd-8cf6-86df7bf21d6d))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e"
@@ -861,10 +861,10 @@
     (property "LCSC Part No" "C2874885" (at 253.365 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 251c58da-934b-4bcb-882a-0b9f92751b9c))
-    (pin "2" (uuid a5e59f06-f7fe-49b5-9d64-d72c9e3c538e))
-    (pin "3" (uuid a9bfba71-9be1-4cbd-9582-8d7afb8b1f4e))
-    (pin "4" (uuid 6be43357-949f-47c3-9e98-f9251d779b30))
+    (pin "1" (uuid cd2bcda8-7ede-44da-9509-b8f0feb3ef7e))
+    (pin "2" (uuid a8d5f341-c04f-4661-9289-497fa78791dc))
+    (pin "3" (uuid ff94cbf2-dc89-48b5-8dcd-f2861d58b7c4))
+    (pin "4" (uuid 1605b01e-072b-4aa5-96e3-86fd867cdb46))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/291f8509-e73e-4769-8772-49404d694792"
@@ -897,10 +897,10 @@
     (property "LCSC Part No" "C2874885" (at 273.05 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bb84f8a0-c944-4c2c-a55b-2bf8c87a4f0a))
-    (pin "2" (uuid b606d5c3-9a9c-4252-9811-b83c1659c680))
-    (pin "3" (uuid 8d1960e2-2650-4c8f-886b-2e9550933d74))
-    (pin "4" (uuid e2fa5a51-3029-402a-87d5-04b13e379462))
+    (pin "1" (uuid e3b555e0-b32a-44be-9c52-91ba4edb3e11))
+    (pin "2" (uuid 80d87662-26fd-4bbd-8735-975bc47c3f5c))
+    (pin "3" (uuid f78ac625-22ad-4440-955b-e5cfe65c581d))
+    (pin "4" (uuid 10b17a98-b539-448e-86eb-8f8e6716efcb))
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/291f8509-e73e-4769-8772-49404d694792"
