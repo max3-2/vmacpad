@@ -545,13 +545,13 @@
   (symbol (lib_id "Diode:SM4007") (at 178.435 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 030a7031-31f2-4a44-a16e-db65a3e710bf)
-    (property "Reference" "D23" (at 180.975 73.6599 90)
+    (property "Reference" "D18" (at 181.61 73.66 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "SM4007" (at 180.975 74.93 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "SM4007" (at 181.61 76.2 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_MELF" (at 182.88 74.93 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 182.88 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 178.435 74.93 0)
@@ -571,7 +571,7 @@
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
-          (reference "D23") (unit 1)
+          (reference "D18") (unit 1)
         )
       )
       (project "hedgehog-lite"
@@ -687,13 +687,13 @@
   (symbol (lib_id "Diode:SM4007") (at 178.435 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10a04d9c-c291-4031-a215-4d8319d5848f)
-    (property "Reference" "D22" (at 180.975 53.3399 90)
+    (property "Reference" "D17" (at 181.61 53.34 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "SM4007" (at 180.975 54.61 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "SM4007" (at 181.61 55.88 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_MELF" (at 182.88 54.61 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 182.88 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 178.435 54.61 0)
@@ -713,7 +713,7 @@
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
-          (reference "D22") (unit 1)
+          (reference "D17") (unit 1)
         )
       )
       (project "hedgehog-lite"
@@ -829,13 +829,13 @@
   (symbol (lib_id "Diode:SM4007") (at 86.995 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2cf89229-c8a4-4e42-be53-3e8d03710745)
-    (property "Reference" "D2" (at 89.535 53.3399 90)
+    (property "Reference" "D1" (at 89.535 53.3399 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SM4007" (at 89.535 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_MELF" (at 91.44 54.61 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 91.44 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 86.995 54.61 0)
@@ -855,7 +855,7 @@
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
-          (reference "D2") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
       (project "hedgehog-lite"
@@ -971,13 +971,13 @@
   (symbol (lib_id "Diode:SM4007") (at 132.715 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4007fac2-928f-44ce-b18e-53ccd4972db8)
-    (property "Reference" "D12" (at 135.255 53.3399 90)
+    (property "Reference" "D9" (at 135.89 53.34 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "SM4007" (at 135.255 54.61 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "SM4007" (at 135.89 55.88 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_MELF" (at 137.16 54.61 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 137.16 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 132.715 54.61 0)
@@ -997,7 +997,7 @@
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
-          (reference "D12") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
       (project "hedgehog-lite"
@@ -1113,13 +1113,13 @@
   (symbol (lib_id "Diode:SM4007") (at 109.855 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e416b2c-aa7c-4010-a672-071c5cf4352a)
-    (property "Reference" "D7" (at 112.395 53.3399 90)
+    (property "Reference" "D5" (at 113.03 53.34 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "SM4007" (at 112.395 55.8799 90)
+    (property "Value" "SM4007" (at 113.03 55.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_MELF" (at 114.3 54.61 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 114.3 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 109.855 54.61 0)
@@ -1139,7 +1139,7 @@
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
-          (reference "D7") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
       (project "hedgehog-lite"
@@ -1153,13 +1153,13 @@
   (symbol (lib_id "Diode:SM4007") (at 109.855 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 57cc151b-9763-4f16-81ad-18046a992978)
-    (property "Reference" "D8" (at 112.395 73.6599 90)
+    (property "Reference" "D6" (at 113.03 73.66 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "SM4007" (at 112.395 74.93 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "SM4007" (at 113.03 76.2 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_MELF" (at 114.3 74.93 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 114.3 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 109.855 74.93 0)
@@ -1179,7 +1179,7 @@
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
-          (reference "D8") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
       (project "hedgehog-lite"
@@ -1193,13 +1193,13 @@
   (symbol (lib_id "Diode:SM4007") (at 132.715 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5abd4031-35d9-4fbc-a130-07b310da43d3)
-    (property "Reference" "D14" (at 135.255 93.9799 90)
+    (property "Reference" "D11" (at 135.89 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "SM4007" (at 135.255 95.25 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "SM4007" (at 135.89 96.52 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_MELF" (at 137.16 95.25 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 137.16 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 132.715 95.25 0)
@@ -1219,7 +1219,7 @@
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
-          (reference "D14") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
       (project "hedgehog-lite"
@@ -1267,13 +1267,13 @@
   (symbol (lib_id "Diode:SM4007") (at 86.995 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7472d44e-2439-4890-bf12-e5a04193311c)
-    (property "Reference" "D3" (at 89.535 73.6599 90)
+    (property "Reference" "D2" (at 90.17 73.66 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "SM4007" (at 89.535 74.93 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "SM4007" (at 90.17 76.2 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_MELF" (at 91.44 74.93 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 91.44 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 86.995 74.93 0)
@@ -1293,7 +1293,7 @@
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
-          (reference "D3") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
       (project "hedgehog-lite"
@@ -1341,13 +1341,13 @@
   (symbol (lib_id "Diode:SM4007") (at 132.715 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a6889de-57ed-4421-aaee-691e583bc0ff)
-    (property "Reference" "D13" (at 135.255 73.6599 90)
+    (property "Reference" "D10" (at 135.89 73.66 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "SM4007" (at 135.255 74.93 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "SM4007" (at 135.89 76.2 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_MELF" (at 137.16 74.93 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 137.16 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 132.715 74.93 0)
@@ -1367,7 +1367,7 @@
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
-          (reference "D13") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
       (project "hedgehog-lite"
@@ -1381,13 +1381,13 @@
   (symbol (lib_id "Diode:SM4007") (at 155.575 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99aafb09-f94c-4b53-837c-19298f4ec671)
-    (property "Reference" "D17" (at 158.115 53.3399 90)
+    (property "Reference" "D13" (at 158.75 53.34 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "SM4007" (at 158.115 54.61 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "SM4007" (at 158.75 55.88 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_MELF" (at 160.02 54.61 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 160.02 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 155.575 54.61 0)
@@ -1407,7 +1407,7 @@
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
-          (reference "D17") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
       (project "hedgehog-lite"
@@ -1421,13 +1421,13 @@
   (symbol (lib_id "Diode:SM4007") (at 178.435 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a22a9910-7ec3-4f7e-ac7c-7c713cba8c54)
-    (property "Reference" "D25" (at 180.975 114.2999 90)
+    (property "Reference" "D20" (at 181.61 114.3 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "SM4007" (at 180.975 115.57 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "SM4007" (at 181.61 116.84 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_MELF" (at 182.88 115.57 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 182.88 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 178.435 115.57 0)
@@ -1447,7 +1447,7 @@
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
-          (reference "D25") (unit 1)
+          (reference "D20") (unit 1)
         )
       )
       (project "hedgehog-lite"
@@ -1495,13 +1495,13 @@
   (symbol (lib_id "Diode:SM4007") (at 155.575 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0b06a94-0300-44b6-bea5-18cc5c4fe6ad)
-    (property "Reference" "D18" (at 158.115 73.6599 90)
+    (property "Reference" "D14" (at 158.75 73.66 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "SM4007" (at 158.115 74.93 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "SM4007" (at 158.75 76.2 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_MELF" (at 160.02 74.93 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 160.02 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 155.575 74.93 0)
@@ -1521,7 +1521,7 @@
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
-          (reference "D18") (unit 1)
+          (reference "D14") (unit 1)
         )
       )
       (project "hedgehog-lite"
@@ -1535,13 +1535,13 @@
   (symbol (lib_id "Diode:SM4007") (at 86.995 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6b3235c-e1d1-4ed5-8d93-b69ba0f50cf9)
-    (property "Reference" "D5" (at 89.535 114.2999 90)
+    (property "Reference" "D4" (at 90.17 114.3 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "SM4007" (at 89.535 115.57 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "SM4007" (at 90.17 116.84 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_MELF" (at 91.44 115.57 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 91.44 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 86.995 115.57 0)
@@ -1561,7 +1561,7 @@
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
-          (reference "D5") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
       (project "hedgehog-lite"
@@ -1575,13 +1575,13 @@
   (symbol (lib_id "Diode:SM4007") (at 109.855 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e0e9d8b7-d98d-44ea-a0db-10942d5238c5)
-    (property "Reference" "D10" (at 112.395 114.2999 90)
+    (property "Reference" "D8" (at 113.03 114.3 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "SM4007" (at 112.395 115.57 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "SM4007" (at 113.03 116.84 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_MELF" (at 114.3 115.57 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 114.3 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 109.855 115.57 0)
@@ -1601,7 +1601,7 @@
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
-          (reference "D10") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
       (project "hedgehog-lite"
@@ -1615,13 +1615,13 @@
   (symbol (lib_id "Diode:SM4007") (at 132.715 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e593d2c9-c0e6-4062-b802-e933f0e44360)
-    (property "Reference" "D15" (at 135.255 114.2999 90)
+    (property "Reference" "D12" (at 135.89 114.3 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "SM4007" (at 135.255 115.57 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "SM4007" (at 135.89 116.84 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_MELF" (at 137.16 115.57 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 137.16 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 132.715 115.57 0)
@@ -1641,7 +1641,7 @@
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
-          (reference "D15") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
       (project "hedgehog-lite"
@@ -1655,13 +1655,13 @@
   (symbol (lib_id "Diode:SM4007") (at 155.575 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7bb2d3d-9537-47a5-9528-9a597ad64a3b)
-    (property "Reference" "D20" (at 158.115 114.2999 90)
+    (property "Reference" "D16" (at 158.75 114.3 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "SM4007" (at 158.115 115.57 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "SM4007" (at 158.75 116.84 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_MELF" (at 160.02 115.57 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123F" (at 160.02 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" (at 155.575 115.57 0)
@@ -1681,7 +1681,7 @@
     (instances
       (project "vmacpad-pcb"
         (path "/b8c85975-4701-4a7a-8c2b-ed47ce17715e/0dcad0ad-57bf-4968-8253-e63d9f4721b5"
-          (reference "D20") (unit 1)
+          (reference "D16") (unit 1)
         )
       )
       (project "hedgehog-lite"
