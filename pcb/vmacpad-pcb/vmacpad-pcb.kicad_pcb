@@ -5875,10 +5875,10 @@
       (net 59 "ENC_SW1") (pinfunction "S1") (pintype "passive") (tstamp 73ae04b2-2698-4782-91f8-0be327579b3a))
     (pad "S2" thru_hole circle (at 14.5 0 180) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask")
       (net 68 "COL2") (pinfunction "S2") (pintype "passive") (tstamp cece7701-a478-4123-80bb-f628f5de6850))
-    (model "/Users/Max/Repos/vmacpad/pcb/3dmodels/EC11M1565403/EC11M1565403.STEP"
-      (offset (xyz 7.62 -2.54 0))
+    (model "${ACHERON_3D}/ALPS_EC11E.stp"
+      (offset (xyz 7.5 -2.25 -12))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz -180 0 -90))
     )
   )
 
